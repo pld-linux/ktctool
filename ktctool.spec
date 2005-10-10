@@ -7,6 +7,7 @@ Group:		Networking/Daemons
 Source0:	http://www.zone.ee/ktc/Ktctool.zip
 # Source0-md5:	ea0f68247d05d1c2c15556ddd873456a
 URL:		http://fr.ee/ktctool/
+BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 3.2
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRequires:	sed >= 4.0
@@ -24,6 +25,7 @@ in kernel).
 %setup -q -n %{name}
 
 %build
+install /usr/share/automake/config.* admin
 %configure
 %{__make}
 
