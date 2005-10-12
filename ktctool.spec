@@ -1,4 +1,5 @@
 Summary:	GUI for network bandwidth management in Linux
+Summary(pl):	Graficzny interfejs do zarz±dzania pasmem sieci w Linuksie
 Name:		ktctool
 Version:	1.0
 Release:	1
@@ -20,6 +21,13 @@ Linux. There already exists commandline program tc for this purpose.
 Ktctool is meant to be a graphical user interface to tc. tc is a part
 of iproute2 and controls Quality of Service support in Linux (included
 in kernel).
+
+%description -l pl
+Ktctool to graficzny interfejs do zarz±dzania pasmem sieci w Linuksie.
+Istnieje ju¿ w tym celu dzia³aj±cy z linii poleceñ program tc. Ktctool
+ma byæ graficznym interfejsem u¿ytkownika do tc. tc jest czê¶ci±
+iproute2 i steruje obs³ug± QoS (Quality of Service - jako¶ci us³ug) w
+j±drze Linuksa.
 
 %prep
 %setup -q -n %{name}
