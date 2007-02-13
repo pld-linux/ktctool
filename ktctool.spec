@@ -1,5 +1,5 @@
 Summary:	GUI for network bandwidth management in Linux
-Summary(pl.UTF-8):   Graficzny interfejs do zarządzania pasmem sieci w Linuksie
+Summary(pl.UTF-8):	Graficzny interfejs do zarządzania pasmem sieci w Linuksie
 Name:		ktctool
 Version:	1.0
 Release:	1
