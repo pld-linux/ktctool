@@ -12,6 +12,7 @@ BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 3.2
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRequires:	sed >= 4.0
+BuildRequires:	unzip
 Requires:	iproute2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
